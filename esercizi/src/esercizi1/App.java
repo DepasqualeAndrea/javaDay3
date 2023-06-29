@@ -5,14 +5,14 @@ public static void main(String[] args) {
 		
 		System.out.println(" Caratteri pari = true || dispari = false)");
 		System.out.println();
+		//controllo stringhe
 		
-		// controllo prima stringa
-		String strOne = "mi chiamo Andrea";
-		System.out.println("La stringa - " + strOne + " - è: " + stringPariDispari(strOne));
+		String nome1 = "mi chiamo Andrea";
+		System.out.println("La stringa - " + nome1 + " - è: " + stringPariDispari(nome1));
 		
-		// controllo seconda stringa
-		String strTwo = "Ciao, sono Luca!";
-		System.out.println("La stringa - " + strTwo + " - è: " + stringPariDispari(strTwo));
+		
+		String nome2 = "Il mio nome è Gennaro";
+		System.out.println("La stringa  " + nome2 + " - è: " + stringPariDispari(nome2));
 		
 		System.out.println();
 		
@@ -20,12 +20,12 @@ public static void main(String[] args) {
 		System.out.println();
 		
 		// controllo prima stringa
-		int yearOne = 2013;
-		System.out.println("L'anno " + yearOne + " è: " + annoBisestile(yearOne));
+		int year1 = 2013;
+		System.out.println("L'anno " + year1 + " è: " + annoBisestile(year1));
 		
 		// controllo seconda stringa
-		int yearTwo = 2024;
-		System.out.println("L'anno " + yearTwo + " è: " + annoBisestile(yearTwo));
+		int year2 = 2024;
+		System.out.println("L'anno " + year2 + " è: " + annoBisestile(year2));
 		
 	}
 	
